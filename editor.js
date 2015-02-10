@@ -1024,7 +1024,7 @@ You should have received a copy of the GNU General Public License along with thi
 						 	}).appendTo(containerDiv);
 			var statusBar = $("<div/>", {	id : "statusbar",
 											class: "row-fluid",
-											unselectable:"on",
+											unselectable:"on"
 							}).appendTo(containerDiv);
 	       	$(this).data("menuBar", menuBar);
 	       	$(this).data("editor", editor);
